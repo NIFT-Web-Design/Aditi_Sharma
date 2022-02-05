@@ -40,3 +40,60 @@ nav a#blueBox{
 nav a#OrangeHighlight{
   color: #ffa500
 }
+
+#ourServices h1{
+  background-image: url(https://www.optimal-partners.com/site_images/ourServicesHeader.jpg);
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-position: center;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  display: block;
+  text-shadow: 1px 2px 3px #000;
+  margin: 0;
+  width: 100%;
+
+}
+
+h1{
+  font-weight: lighter;
+}
+
+section.whiteContainer{
+  background-color: white;
+  max-width: 1150px;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+section.whiteContainer h2{
+  padding-top: 10px;
+  margin-bottom: 30px;
+  font-size: 34px;
+  font-weight: lighter;
+  color: #0a465b;
+}
+
+section.whiteContainer p{
+  text-align: center;
+  color: #7f969e;
+  padding: 10px 0px;
+  margin: auto;
+  max-width: 900px;
+  line-height: 1.4;
+  height: 100%;
+  font-size: 16px;
+}
+
+section.whiteContainer p span.highlight{
+  color: #FFA500;
+}
+
+section.ContainerWithFlex{
+  color: #edeff3;
+  padding: 50px 0 70px;
+  
+}
