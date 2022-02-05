@@ -53,31 +53,29 @@ nav a#OrangeHighlight{
   text-shadow: 1px 2px 3px #000;
   margin: 0;
   width: 100%;
-
-}
-
-h1{
   font-weight: lighter;
+
 }
 
-section.whiteContainer{
+
+
+.whiteContainer{
   background-color: white;
   max-width: 1150px;
+  padding: 50px 0 70px 0;
   margin: auto;
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 70px;
 }
 
-section.whiteContainer h2{
-  padding-top: 10px;
-  margin-bottom: 30px;
+h2{
   font-size: 34px;
-  font-weight: lighter;
   color: #0a465b;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  font-weight: lighter;
 }
 
-section.whiteContainer p{
+div.whiteGrey > p{
   text-align: center;
   color: #7f969e;
   padding: 10px 0px;
@@ -92,8 +90,36 @@ section.whiteContainer p span.highlight{
   color: #FFA500;
 }
 
-section.ContainerWithFlex{
-  color: #edeff3;
+.GreyContentContainer{
+  background-color: #EDEff3;
   padding: 50px 0 70px;
-  
+
+}
+
+.timingFlex{
+  padding: 50px 0;
+  max-width: 1150px;
+  margin: auto;
+}
+
+.ContainerWithFlex p{
+  background-color: white;
+  color: #7f969e;
+  font-size: 16px;
+  text-align: center;
+  margin:auto;
+  padding: 20px 25px;
+  line-height: 1.4;
+  max-width: 250px;
+  height: 390px;
+}
+
+.consultingflex h3{
+  font-size: 30px;
+  padding: 15px 20px 25px;
+  text-align: center;
+  background-color: #107698;
+  color: #fff;
+  max-width: 250px;
+  font-size: 24px;
 }
