@@ -115,11 +115,24 @@ section.whiteContainer p span.highlight{
 }
 
 .consultingflex h3{
-  font-size: 30px;
-  padding: 15px 20px 25px;
+  padding: 25px 20px;
   text-align: center;
   background-color: #107698;
   color: #fff;
-  max-width: 250px;
-  font-size: 24px;
+  max-width: 230px;
+  font-size: 22px;
+  font-weight: lighter;
+  min-height: 60px;
+}
+
+.ContainerWithFlex{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  min-height: 110px;
+}
+.consultingflex{
+  margin-top: 50px;
+margin-right: 32px;
+margin-bottom: 30px;
 }
