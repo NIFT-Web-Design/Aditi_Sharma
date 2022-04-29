@@ -23,14 +23,14 @@ body{
   grid-template-columns: 1fr 2fr;
   box-shadow: 0 35px 55px rgba(0,0,0,0.1);
 }
-div.mainHead{
+div.head{
   position: relative;
   display: flex;
   padding-bottom: 24px;
   align-items: center;
   flex-direction: column;
 }
-.mainHead p{
+.head p{
   color: #706F6F;
   border-top:  1px solid #384D6B;
   padding-top: 24PX;
@@ -63,7 +63,7 @@ div.mainHead{
   object-fit: cover;
 }
 
-.mainHead h2{
+.head h2{
 color: #476FA9;
 font-size: 28px;
 margin-top: 30px;
@@ -71,7 +71,7 @@ text-transform: uppercase;
 text-align: center;
 font-weight: 400;
 }
-.mainHead h2 span{
+.head h2 span{
   font-size: 18px;
   font-weight: 300;
 }
@@ -106,7 +106,7 @@ font-weight: 400;
   font-weight: 400;
 }
 
-.education h3{
+.edu h3{
   color: #476FA9;
   font-weight: 400;
   letter-spacing: 1px;
@@ -115,16 +115,16 @@ font-weight: 400;
   border-bottom:  1px solid #384D6B;
   padding-bottom: 16PX;
 }
-.education {
+.edu {
   margin-bottom: 24px;
 }
-.education h5{
+.edu h5{
   color: #706F6F;
   font-weight: 400;
 margin-top: 4px;
 margin-bottom: 4px;
 }
-.education h4{
+.edu h4{
   color: #545454;
   font-weight: 700;
   position: relative;
@@ -170,6 +170,7 @@ margin-bottom: 4px;
   font-weight: 400;
   list-style: none;
 }
+
 
 
 .experienceBox{
@@ -253,7 +254,7 @@ margin: 4px;
 }
 @media (max-width:600px)
 {
-  .mainHead{
+  .head{
     flex-direction: column;
   }
   .education{
