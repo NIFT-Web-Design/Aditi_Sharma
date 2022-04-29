@@ -38,74 +38,6 @@ body {
 }
 
 
-/*.left {
-  height: 1000px;
-  width: 4px;
-  background-color: #e0eeee;
-  float: left;
-  position: fixed;
-} */
-
-/*.introductions > h1 {
-  display: inline-block;
-  float: right;
-  padding-top: 20px;
-  padding-right: 200px;
-  font-size: 20px;
-  font-family: 'Roboto', sans-serif;
-
-}
-.introductions {
-  display: inline-block;
-  float: right;
-  padding-top: 20px;
-  padding-right: 10px;
-}
-
-/*.headings > p {
-  display: block;
-  float: right;
-  padding-top: 32px;
-  font-size: 20px;
-  font-family: 'Lora', serif;
-  padding-right: -140px;
-}
-
-.introductions > p {
-  display: inline-block;
-  float: right;
-  width: 50%;
-  padding-top: 48px;
-  font-size: 20px;
-  font-family: 'Lora', serif; */
-
-
-
-/*.introductions>h1 {
-  display: inline-block;
-  padding-top: 200px;
-  padding-left: 100px;
-  float:right;
-
-}
-
-.introductions>h2 {
-  display: inline-block;
-  padding-top: 200px;
-  padding-left: 100px;
-  float:right;
-}
-
-
-.introductions>p {
-  display: inline-block;
-  padding-top: 200px;
-  padding-left: 100px;
-  float:right;
-  width: 50%;
-} */
-
-
 
 .education {
   width: 300px;
@@ -119,28 +51,6 @@ body {
   display: inline-block;
   height: 600px;
 }
-
-
-/*.intro > h1 {
-  padding-left: 400px;
-  padding-top: -400px;
-  float: right;
-  display: inline-block;
-}
-
-.intro > h2 {
-  padding-left: 400px;
-  padding-top: -400px;
-  float: right;
-  display: inline-block;
-}
-
-.intro > p {
-  /padding-left: 400px;
-  padding-top: -400px;
-  float: right;
-  display: inline-block;
-} */
 
 
 
