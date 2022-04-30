@@ -36,7 +36,6 @@ div.head{
   padding-top: 24PX;
 }
 .leftSide{
-  /* background-color: #545454; */
   padding: 40px;
   position: relative;
 }
@@ -207,19 +206,16 @@ margin: 4px;
   color: #706F6F;
   font-weight: 400;
 }
-.store h4{
+.web h4{
   color: #545454;
   font-weight: 700;
 margin: 4px;
 }
-.store h5{
+.web h5{
   color: #706F6F;
   font-weight: 400;
 }
-/*
-.daintyStore{
-  padding-top: 24px;
-}*/
+
 .languages h3{
   color: #476FA9;
   font-weight: 400;
