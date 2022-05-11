@@ -1,43 +1,3 @@
-/*
-body{
-  font-family: 'Oxygen';
-  font-size: 16px;
-  font-weight: 400;
-}*/
-
-/* header*/
-/*header{
-  background-color:#054263;
-  padding: 16px 0px;
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
-
-}
-#highlight{
-  color: #66A2BA
-}
-
-#logo{
-  margin: auto;
-  margin-left: 105px;
-}
-
-nav{
-  margin: auto;
-  margin-right: 105px;
-}
-
-
-nav a{
-  font-weight: bold;
-  color:#FFFFFF;
-  text-decoration: none;
-  padding: 6px 12px;
-  border-radius: 4px;
-  font-size: 13px;
-
-}*/
 body{
   font-family: 'Oxygen';
   font-size: 16px;
@@ -51,32 +11,16 @@ header{
   justify-content: space-between;
   display: flex;
   align-items: center;
-
 }
+
 #logo{
   margin: auto;
-  margin-left: 195px;
+  margin-left: 184px;
 }
 
 nav{
   margin: auto;
-  margin-right: 150px;
-}
-  a {
-   text-decoration:none
- }
- a:after {
-   content: "";
-  display: inline-block;
-   width: 0;
-   border-bottom: 1px solid;
-   margin: 0 auto;
-   transition:all 0.3s linear 0s;
- }
-
- a:hover:after {
-   width: 90%;
- }
+  margin-right: 123px;
 }
 
 #highlight{
@@ -94,6 +38,32 @@ nav a{
   font-size: 16px;
 
 }
+.navLinks{
+  flex: 1;
+  text-align: right;
+}
+.navLinks ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+.navLinks ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  display: block;
+  margin: auto;
+  background: #fff;
+  transition: 0.5s;
+}
+.navLinks ul li:hover::after{
+  width: 100%;
+}
+
 
 
 .allandabout{
@@ -116,37 +86,68 @@ nav a{
 }
 
 h1{
-      font-style: italic;
-      padding-left: color: #054263;
-      font-weight: 500;
-      font-size: 40px;
-      padding-left: 292px;
-      padding-top: 100px;
-    }
+  font-style: italic;
+  color: #054263;
+  font-weight: 600;
+    font-size: 38px;
+  padding-left: 287px;
+padding-top: 100px;
+}
 
 p{
-  font-size: 16px;
+  font-size: 14px;
     font-weight: normal;
     font-family: 'Oxygen';
-    padding: 50px 150px 30px 150px;
-    text-align: center;
+    padding: 1px 160px 30px 150px;
+    text-align: justify;
     line-height: 1.5;
     margin: inherit
 }
 
-#motifsinsides{
-  padding-left: 1314px;
-}
-#motifsinleft{
-  padding-right: 1314px;
-}
 
-h2{
+.theactualmotifs {
   justify-content: center;
-  font-size: 56px;
+  font-size: 48px;
   font-family: monospace;
   font-weight:400px;
   color:#054263;
   padding: 20px 0px 20px 0px;
   text-align: center;
+}
+
+
+
+#motifsinsides{
+  padding-left: 1312px;
+}
+#motifsinleft{
+  padding-right: 1312px;
+  padding-bottom: 20px;
+}
+
+
+h2{
+  justify-content: center;
+  font-size: 45px;
+  font-family: 'Oxygen';
+  font-weight: 400;
+  color:#054263;
+  padding: 20px 20px 45px 20px;
+  text-align: center;
+}
+
+
+
+h3{
+  justify-content: center;
+  font-size: 56px;
+  font-family: monospace;
+  font-weight:400;
+  color:#054263;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+}
+
+.actual_motifs{
+  display: block;
 }
