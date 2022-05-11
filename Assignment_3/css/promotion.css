@@ -1,0 +1,12 @@
+header{
+  background-color:#054263;
+  padding: 16px 0px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+#logo{
+  margin: auto;
+  margin-left: 184px;
+}
