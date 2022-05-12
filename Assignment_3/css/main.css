@@ -15,12 +15,12 @@ header{
 
 #logo{
   margin: auto;
-  margin-left: 184px;
+  margin-left: 231px;
 }
 
 nav{
   margin: auto;
-  margin-right: 123px;
+  margin-right: 110px;
 }
 
 #highlight{
@@ -38,30 +38,8 @@ nav a{
   font-size: 16px;
 
 }
-.navLinks{
-  flex: 1;
-  text-align: right;
-}
-.navLinks ul li{
-  list-style: none;
-  display: inline-block;
-  padding: 8px 12px;
-  position: relative;
-  color: #fff;
-  text-decoration: none;
-  font-size: 16px;
-}
-.navLinks ul li::after{
-  content: '';
-  width: 0%;
-  height: 2px;
-  display: block;
-  margin: auto;
-  background: #fff;
-  transition: 0.5s;
-}
-.navLinks ul li:hover::after{
-  width: 100%;
+nav a:hover{
+  color: #E2E2E2;
 }
 
 
@@ -73,8 +51,8 @@ nav a{
 
 #firstpicture{
   margin: auto;
-  margin-left: 100px;
-  margin-top: 50px;
+  margin-left: 180px;
+  margin-top: 48px;
   padding: inherit;
 }
 
@@ -88,51 +66,81 @@ nav a{
 h1{
   font-style: italic;
   color: #054263;
-  font-weight: 600;
-    font-size: 38px;
-  padding-left: 287px;
+  font-weight: 700;
+  font-size: 48px;
+  padding-left: 381px;
 padding-top: 100px;
 }
 
-p{
-  font-size: 14px;
+#aboutTribe{
+  font-size: 16px;
     font-weight: normal;
     font-family: 'Oxygen';
-    padding: 1px 160px 30px 150px;
+    padding: 50px 250px 30px 250px;
     text-align: justify;
     line-height: 1.5;
     margin: inherit
 }
-
-
+/*
+.AboutnBranding{
+  display: flex;
+}*/
+.parentdiv{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.dusriparentdiv{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.brandingp{
+      padding: 172px 0px 0px 330px;
+      justify-content: center;
+      font-style: normal;
+      line-height: 1.5;
+      font-size: 25px;
+      color: #054263;
+}
+.quotep{
+  padding: 150px 214px 0px 35px;
+  justify-content: center;
+  font-style: italic;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 20px;
+  color: #054263;
+}
 .theactualmotifs {
   justify-content: center;
   font-size: 48px;
-  font-family: monospace;
+  font-family: 'Oxygen';
   font-weight:400px;
   color:#054263;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px 67px 0px;
   text-align: center;
 }
 
 
-
+/*
 #motifsinsides{
-  padding-left: 1312px;
-}
+  padding-left: 1699px;
+}*/
+/*
 #motifsinleft{
-  padding-right: 1312px;
+  padding-right: 1699px;
   padding-bottom: 20px;
-}
+}*/
 
 
 h2{
   justify-content: center;
-  font-size: 45px;
+  font-size: 56px;
   font-family: 'Oxygen';
-  font-weight: 400;
+  font-weight: 100;
   color:#054263;
-  padding: 20px 20px 45px 20px;
+  padding: 20px 0px 20px 0px;
   text-align: center;
 }
 
@@ -141,99 +149,117 @@ h2{
 h3{
   justify-content: center;
   font-size: 56px;
-  font-family: monospace;
-  font-weight:400;
+  font-family:'Oxygen';
+  font-style: normal;
+  font-weight:300;
   color:#054263;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px 57px 0px;
   text-align: center;
 }
+
+
+/*
+.artisanpicture{
+  display: inline-flex;
+}
+*/
 
 .actual_motifs{
   display: block;
-
 }
-
-
-/*------ARTISANS SECTION-----*/
-
-
-#pannel_motif{
-  max-width: 1319px;
-  max-height: 606px;
-}
-
-.artisansrow{
-  margin-top: 5%;
+/*------ARTISANS SECTION-------*/
+.aboutRow{
   display: flex;
-  max-width: 1519px;
-  padding-left: 136px;
-  justify-content: center;
+  justify-content: space-around;
 
+}
+.photos {
+  width: 80%;
+  margin: auto;
+  font-family: 'Oxygen';
+  text-align: center;
+  font-size: 36px;
+}
 
+#up{
+  height: 100%
+}
+
+.photos h1 {
+  font-size: 36px;
+  font-weight: 400;
+  color: #5C3A2F
+}
+
+.photos p {
+  color: #777;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  padding: 10px;
 }
 
 .photoflex {
-    flex-basis: 32%;
-    border-radius: 16px;
-    margin-bottom: 32px;
-    position: relative;
-    overflow: hidden;
+  flex-basis: 32%;
+  border-radius: 16px;
+  margin-bottom: 32px;
+  position: relative;
+  overflow: hidden;
 }
 
 .photoflex img {
-    flex: 1;
-    max-width: 100%;
-    max-height: 80%;
-    border-radius: 16px;
-    display: block;
+  width: 100%;
+  border-radius: 16px;
+  display: flex;
 }
-/*
-.overlap:hover img{
-      display: inline;
-      color: #fff;
-      font-weight: 700;
-      width: 100%;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      position: absolute;
-      opacity: 100px;
-      transition: 0.5s;
-
-
-
-}
-*/
-.photoflex{
-       width: 130px;
-        height: 195px;
-        background: url("Amma_Stick_Blue") no-repeat;
-        margin: 50px;
-}
-.overlap:hover{
-  background: url("images/Amma_Stick.png") no-repeat;
-
-
-
-}
-
-
-
 
 .overlap {
-    background: transparent;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 0.5s;
-  }
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+
+.overlap:hover {
+  background: rgba(102, 162, 186, 0.7);
+}
+
+.overlap h5 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 400;
+  width: 100%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.overlap:hover h5 {
+  bottom: 49%;
+  opacity: 1;
+}
+
+
+
+
 
 footer{
-  background-color: #054263;
-  justify-content: flex-end;
-  text-align: center;
-  padding: 50px 50px;
-  color: #FFFFFF;
+    background-color: #054263;
+    padding: 50px 50px 50px 72px;
+    font-family: 'Oxygen';
+    font-size: 16px;
+    font-weight: 100;
+    justify-content: inherit;
+    text-align: center;
+    color: #ffffff;
+    line-height: initial;
 }
+
+
+/*GOVERNMENT ICONS*/

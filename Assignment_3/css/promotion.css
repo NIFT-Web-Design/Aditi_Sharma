@@ -1,3 +1,10 @@
+body{
+  font-family: 'Oxygen';
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* header*/
 header{
   background-color:#054263;
   padding: 16px 0px;
@@ -6,7 +13,78 @@ header{
   align-items: center;
 }
 
+
+
 #logo{
   margin: auto;
-  margin-left: 184px;
+  margin-left: 300px;
+}
+
+nav{
+  margin: auto;
+  margin-right: 200px;
+}
+
+#highlight{
+  color: #66A2BA;
+}
+
+
+nav a{
+  font-weight: bold;
+  color:#FFFFFF;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+
+}
+
+
+
+.allandabout{
+  display: flex;
+  color: #054263;
+}
+
+h1{
+justify-content: center;
+font-size: 56px;
+font-family:'Oxygen';
+font-style: normal;
+font-weight:300;
+color:#054263;
+padding: 60px 0px 60px 0px;
+text-align: center;
+}
+
+.poster_inline {
+display: flex;
+padding: 20px 300px 20px 300px;
+margin: auto;
+justify-content: space-between;
+}
+.play_on_hover{
+  width: 1903px;
+  height: 402px;
+  background-image: url(images/promotional_static.png);
+  cursor: pointer;
+  background-size: cover;
+}
+.play_on_hover:hover{
+  background-image: url(images/promotional_gif.gif);
+}
+
+
+
+footer{
+  background-color: #054263;
+    padding: 50px 50px 50px 95px;
+    font-family: 'Oxygen';
+    font-size: 16px;
+    font-weight: 100;
+    justify-content: inherit;
+    text-align: center;
+    color: #ffffff;
+    line-height: initial;
 }
