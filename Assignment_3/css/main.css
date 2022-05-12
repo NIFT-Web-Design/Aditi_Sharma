@@ -150,4 +150,90 @@ h3{
 
 .actual_motifs{
   display: block;
+
+}
+
+
+/*------ARTISANS SECTION-----*/
+
+
+#pannel_motif{
+  max-width: 1319px;
+  max-height: 606px;
+}
+
+.artisansrow{
+  margin-top: 5%;
+  display: flex;
+  max-width: 1519px;
+  padding-left: 136px;
+  justify-content: center;
+
+
+}
+
+.photoflex {
+    flex-basis: 32%;
+    border-radius: 16px;
+    margin-bottom: 32px;
+    position: relative;
+    overflow: hidden;
+}
+
+.photoflex img {
+    flex: 1;
+    max-width: 100%;
+    max-height: 80%;
+    border-radius: 16px;
+    display: block;
+}
+/*
+.overlap:hover img{
+      display: inline;
+      color: #fff;
+      font-weight: 700;
+      width: 100%;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      position: absolute;
+      opacity: 100px;
+      transition: 0.5s;
+
+
+
+}
+*/
+.photoflex{
+       width: 130px;
+        height: 195px;
+        background: url("Amma_Stick_Blue") no-repeat;
+        margin: 50px;
+}
+.overlap:hover{
+  background: url("images/Amma_Stick.png") no-repeat;
+
+
+
+}
+
+
+
+
+.overlap {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+  }
+
+footer{
+  background-color: #054263;
+  justify-content: flex-end;
+  text-align: center;
+  padding: 50px 50px;
+  color: #FFFFFF;
 }
